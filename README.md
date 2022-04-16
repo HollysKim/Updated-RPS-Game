@@ -1,1 +1,1 @@
-# Updated-RPS-Game
+# RockPaperScissors

@@ -1,0 +1,55 @@
+body {
+    background-color: #c9c9c9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.signsContainer {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 50px;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+.signBox {
+    border: 5px solid black;
+    padding: 10px;
+}
+
+.active:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.blackedOut {
+    opacity: 50%;
+    background-color: black;
+}
+
+#hide {
+display: none;
+}
+
+button {
+margin: 0 auto;
+display: block;
+background-color: #000000;
+border-radius: 2px;
+font-size: 20px;
+color: white;
+}
+button:hover {
+cursor: pointer;
+transform: scale(1.1);
+transition-duration: 0.2s;
+}
